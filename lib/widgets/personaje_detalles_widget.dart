@@ -45,10 +45,10 @@ class PersonajeDetails extends StatelessWidget {
             style: const TextStyle(color: Colors.white, fontSize: 15)),
         const SizedBox(height: 8),
         const Text(
-          'Species:',
+          'Gender:',
           style: TextStyle(color: Colors.grey, fontSize: 18),
         ),
-        Text(personaje.species,
+        Text(personaje.gender,
             style: const TextStyle(color: Colors.white, fontSize: 15)),
       ],
     );
