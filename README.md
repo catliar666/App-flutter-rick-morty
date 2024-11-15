@@ -24,7 +24,7 @@ Esta aplicación Flutter muestra una lista de personajes de la serie **Rick and 
 - Dentro del `FutureBuilder`, se ha creado un widget personalizado llamado `Scroll`.
 - Este widget está compuesto por una lista de personajes que llama a un widget personalizado llamado `PersonajeViewWidget` el cual tiene a su vez dos sub-widgets llamados `PersonajeImage` y `PersonajeDetails`:
   - **PersonajeImage**: Un widget para mostrar la imagen del personaje.
-  - **PersonajeDetails**: Un widget que presenta detalles como el nombre, el estado del personaje, la especie, el lugar de residencia y en qué episodio ha sido visto por primera vez.
+  - **PersonajeDetails**: Un widget que presenta detalles como el nombre, el estado del personaje, la especie, el lugar de residencia y el género de este.
 - Para estructurar el contenido de `PersonajeView` se han utilizado los siguientes widgets:
   - **Row y Column**: Para alinear y organizar los elementos visuales.
   - **Padding**: Para agregar márgenes y espaciamiento entre los elementos.
@@ -51,3 +51,6 @@ Esta aplicación Flutter muestra una lista de personajes de la serie **Rick and 
 2. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/rick-and-morty-flutter-app.git
+
+## Creador
+- Proyecto realizado por Maria Ordoñez Izquierdo para la asignatura de Programación Móvil.
