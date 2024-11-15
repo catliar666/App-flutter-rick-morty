@@ -6,7 +6,7 @@ Esta aplicación Flutter muestra una lista de personajes de la serie **Rick and 
 
 ### `MaterialApp`
 - La aplicación está construida alrededor de un widget `MaterialApp`.
-- Dentro de `MaterialApp`, el atributo `home` apunta a una pantalla principal que utiliza un `FutureBuilder` para cargar los datos de los personajes.
+- Dentro de `MaterialApp`, el atributo `home` apunta a una pantalla principal que utiliza un `HomeScreenFb` para cargar los datos completos de la aplicación.
 
 ### AppBar
 - El `AppBar` incluye:
